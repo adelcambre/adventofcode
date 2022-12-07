@@ -4,4 +4,4 @@ require 'advent'
 advent = Advent.new(ARGF.read)
 
 # Output here
-puts advent.result
+puts "Result: #{advent.result}"
