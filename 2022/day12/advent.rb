@@ -56,6 +56,8 @@ class Advent
         when 'E'
           @target = coords
           Point.new('z', coords)
+        when 'a'
+          Point.new('a', coords, 0)
         else
           Point.new(char, coords)
         end

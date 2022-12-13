@@ -11,6 +11,6 @@ class AdventTest < Minitest::Test
   EOF
 
   def test_example
-    assert_equal 31, Advent.new(INPUT).result
+    assert_equal 29, Advent.new(INPUT).result
   end
 end
